@@ -4,56 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Page</title>
-    <link rel="stylesheet" type="text/css" href="./project.css">
+    <title>Home Page</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        .MAINDIV{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 560px;
+            border-bottom: 1px solid gray;
+            font-size: 25px;
+            box-shadow: 1px;
+        }
+        .div1{
+            position: absolute;
+            top: 0px;
+            left: 300px;
+            bottom: 560 px;
+            right:150px;
+        }
+        .ol1{
+            float: left;
+        }
+        .div2{
+            position: absolute;
+            top: 0px;
+            bottom: 560px;
+            left: 500px;
+            right: 50px;
+        }
+        .ol2{
+            float: right;
+        }
+        ol{
+            list-style-type: none ;
+            bottom: 560 px;
+        }
+        li{
+            float: left;
+            margin-right: 50px;
+            margin-left: 0px;
+            bottom: 560px;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+            float: left;
+        }
+    </style>
 </head>
 <body>
-    <div class="div-form">
-        <form action="" id="Register_Form" onsubmit="">
-            <div>
-                <label for="FirstName">
-                    First Name:
-                    <input type="text" name="FirstName" id="firstname">
-                </label>
-            </div>
-            <div>
-                    <label for="LastName">
-                    Last Name:
-                    <input type="text" name="LastName" id="lastname">
-                </label>
-            </div>
-            <div>
-                <label for="UserName">
-                    Username:
-                    <input type="text" name="UserName" id="username">
-                </label>
-            </div>
-            <div>
-                <label for="Email">
-                    Email:
-                    <input type="email" name="Email" id="email" placeholder="anything@gmail.com">
-                </label>
-            </div>
-            <div>
-                <label for="Password">
-                    Password:
-                    <input type="password" name="Password" id="password">
-                </label>
-            </div>
-            <div>
-                <label for="ConfirmPassword">
-                    Confirm Password:
-                    <input type="password" name="ConfirmPasssword" id="confirmpassword">
-                </label>
-            </div>
-            <div>
-                <label for="Submit">
-                    <button type="submit" value="submit" id="submit">Register</button>
-                </label>
-            </div>
-        </form>
-        <h3>Already have an account! <a href="./login.html">Login Directly</a></h3>
-        
+    <div class="MAINDIV">
+        <div>
+            <ol>
+                <li ><a href="">WT PROJECT</a></li>
+            </ol>
+        </div>
+        <div class="div1">
+            <ol class="ol1">
+                <li ><a href="#">Home</a></li>
+                <li><a href="./Create/404.html">Team</a></li>
+                <li><a href="./Create/404.html">Learn</a></li>
+                <li><a href="./Create/404.html">Contact Us</a></li>
+            </ol>
+        </div>
+        <div class="div2">
+            <ol class="ol2">
+                <li><a href="./Create/index.html">Sign UP</a></li>
+                <li><a href="./Create/login.html">Sign IN</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>
