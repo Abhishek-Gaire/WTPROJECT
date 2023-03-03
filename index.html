@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
 </head>
 <body>
     <div class="div-form">
-        <form action="" id="Register_Form" onsubmit="">
+        <form method="post" action="./Main/save.php" id="Register_Form" enctype="multipart/form-data" onsubmit="return check()">
             <div>
                 <label for="FirstName">
                     First Name:
@@ -52,8 +53,44 @@
                 </label>
             </div>
         </form>
-        <h3>Already have an account! <a href="./login.html">Login Directly</a></h3>
-        
+        <h3>Already have an account! <a href="./Create/login.php">Login Directly</a></h3>
     </div>
+    <script type="text/javascript">
+        
+        function check(){
+            var p=document.getElementById("password").value;
+            var cp=document.getElementById("confirmpassword").value;
+            var FirstName=document.getElementById("firstname").value;
+            var LastName=document.getElementById("lastname").value;
+            var UserName=document.getElementById("username").value;
+            var Email=document.getElementById("email").value;
+
+            if (FirstName==""){
+               alert("Enter your FirstName");
+               return false;
+            }
+            else if (LastName==""){
+               alert("Enter your LastName");
+               return false;
+            }
+            else if (UserName==""){
+               alert("Enter your UserName");
+               return false;
+            }
+            else if(Email==""){  
+                alert("Enter your Email");  
+                return false;  
+            } 
+            else if(p==""){
+                alert("Enter your Password");
+                return false;
+            }
+            else if(p!==cp){
+                alert("Your Paasswords dont matches. Please Re-Enter your Password.");
+                return false;
+            }
+        }
+        
+    </script>
 </body>
 </html>
