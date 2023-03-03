@@ -13,6 +13,8 @@ $sql="INSERT INTO Register(FirstName, LastName, Username, Email, Password, Confi
 VALUES('$FirstName' , '$LastName' , '$UserName' , '$Email' , '$Password' , '$ConfirmPassword')";
 
 mysqli_query($conn, $sql);
-header('<location: class="../GOTO/index.php">');
+header('<location: class="../Create/login.php">');
+
+?>
 
 
