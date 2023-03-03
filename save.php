@@ -1,6 +1,6 @@
 <?php 
 
-require_once "../utils/db.php";
+require_once "db.php";
 
 $FirstName=$_POST['FirstName'] ?? '';
 $LastName=$_POST['LastName'] ?? '';
@@ -13,7 +13,7 @@ $sql="INSERT INTO Register(FirstName, LastName, Username, Email, Password, Confi
 VALUES('$FirstName' , '$LastName' , '$UserName' , '$Email' , '$Password' , '$ConfirmPassword')";
 
 mysqli_query($conn, $sql);
-header('<location: class="../Create/login.php">');
+header('<location:login.php>');
 
 ?>
 

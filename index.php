@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
-    <link rel="stylesheet" type="text/css" href="./Create/project.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
 </head>
 <body>
     <div class="div-form">
@@ -53,7 +53,7 @@
                 </label>
             </div>
         </form>
-        <h3>Already have an account! <a href="./Create/login.php">Login Directly</a></h3>
+        <h3>Already have an account! <a href="login.php">Login Directly</a></h3>
     </div>
     <script type="text/javascript">
         

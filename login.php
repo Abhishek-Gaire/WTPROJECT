@@ -1,5 +1,5 @@
 <?php
-require_once "../Main/save.php";
+require_once "save.php";
 error_reporting(0);
 
 session_start();
@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){
       $row = mysqli_fetch_array($result);
-      header("Location:../GOTO/home.php");
+      header("Location:home.php");
    }
    else{
       $error = 'Incorrect email or password!';
@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
                 <button type="submit" name="submit">Login</button>
             </div>
         </form>
-        <h3>Don't have an account! <a href="./index.html">Register Now</a></h3>
+        <h3>Don't have an account! <a href="index.php">Register Now</a></h3>
     </div>
 </body>
 </html>

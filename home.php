@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="./goto.css">
+    <link rel="stylesheet" type="text/css" href="goto.css">
 </head>
 <body>
     <div class="MAINDIV">
@@ -17,14 +17,14 @@
         <div class="div1">
             <ol class="ol1">
                 <li ><a href="#">Home</a></li>
-                <li><a href="../Create/404.html">Team</a></li>
-                <li><a href="../Create/404.html">Learn</a></li>
-                <li><a href="../Create/404.html">Contact Us</a></li>
+                <li><a href="404.html">Team</a></li>
+                <li><a href="404.html">Learn</a></li>
+                <li><a href="404.html">Contact Us</a></li>
             </ol>
         </div>
         <div class="div2">
             <ol class="ol2">
-                <li><a href="../Create/logout.php">Logout</a></li>
+                <li><a href="logout.php">Logout</a></li>
             </ol>
         </div>
     </div>
