@@ -24,7 +24,7 @@
         </div>
         <div class="div2">
             <ol class="ol2">
-                <li><a href="../index.html">register</a></li>
+                <li><a href="../Create/logout.php">Logout</a></li>
             </ol>
         </div>
     </div>

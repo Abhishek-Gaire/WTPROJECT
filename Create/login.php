@@ -12,10 +12,12 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){
       $row = mysqli_fetch_array($result);
-      }
-   }else{
+      header("Location:../GOTO/index.php");
+   }
+   else{
       $error = 'Incorrect email or password!';
    }
+}
 
 
 ?>
