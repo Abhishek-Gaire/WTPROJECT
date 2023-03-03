@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){
       $row = mysqli_fetch_array($result);
-      header("Location:../GOTO/index.php");
+      header("Location:../GOTO/home.php");
    }
    else{
       $error = 'Incorrect email or password!';

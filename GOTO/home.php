@@ -17,9 +17,9 @@
         <div class="div1">
             <ol class="ol1">
                 <li ><a href="#">Home</a></li>
-                <li><a href="./Create/404.html">Team</a></li>
-                <li><a href="./Create/404.html">Learn</a></li>
-                <li><a href="./Create/404.html">Contact Us</a></li>
+                <li><a href="../Create/404.html">Team</a></li>
+                <li><a href="../Create/404.html">Learn</a></li>
+                <li><a href="../Create/404.html">Contact Us</a></li>
             </ol>
         </div>
         <div class="div2">
